@@ -1,0 +1,15 @@
+--- Dataset Train ---
+Class distribution before undersampling: (array([0, 1]), array([38404928,  2206099]))
+Class distribution after undersampling: (array([0, 1]), array([2206099, 2206099]))
+                       Accuracy Precision Recall F1-score   MCC
+DecisionTreeClassifier     0.63      0.64   0.61     0.62  0.26
+RandomForestClassifier     0.63      0.63   0.61     0.62  0.26
+
+Best Model: DecisionTreeClassifier(class_weight='balanced', max_depth=10, random_state=42)
+
+--- Dataset Test ---
+                       Accuracy Precision Recall F1-score   MCC
+DecisionTreeClassifier     0.70      0.69   0.74     0.71  0.41
+RandomForestClassifier     0.69      0.68   0.72     0.70  0.39
+ 
+Best Model: DecisionTreeClassifier(class_weight='balanced', max_depth=10, random_state=42)
